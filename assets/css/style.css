@@ -1,0 +1,63 @@
+body{
+	background-image: url('../images/krystal-ng-PrQqQVPzmlw-unsplash.jpg');
+background-size: 100%;
+background-repeat: no-repeat;
+
+}
+
+
+div{
+	background-color: transparent;
+	margin: 10px;
+	width: 25%;
+	border: solid 3px antiquewhite;
+	padding: 10px;
+	
+}
+
+h1, h3, span{
+	font-weight: 650;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+/* Specfic Elements*/
+div.header div.gems{
+    background-color: transparent;
+    width: 150;
+}
+div.header, div.instructions{
+	width: auto;
+
+}
+
+div.instructions {
+	background-color: white;
+	opacity: .75;
+
+}
+/* Classes */
+#current-score{
+	width: 15%;
+	height: 60px;
+}
+
+.gem{
+	height: 20vh;
+	width: 20vh;
+	margin-left: 20vh;
+}
+
+#gems {
+	width:auto;
+	
+	
+	
+}
+
